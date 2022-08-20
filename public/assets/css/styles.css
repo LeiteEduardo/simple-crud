@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #EEE;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #293556;
+    color: #EEE;
+    margin-top: 24px;
+    border-radius: 24px;
+    border: #5983FC solid 2px;
+}
+
+header > h1 {
+    border-bottom: #5983FC solid 2px;
+}
+
+section {
+    width: 70%;
+    background-color: #293556;
+    color: #EEE;
+    margin-top: 24px;
+    border-radius: 24px;
+    border: #5983FC solid 2px;
+}
+
+section > form {
+    padding: 16px 32px;
+}
+
+.form-title {
+    display: flex;
+    justify-content: center;
+}
+
+.form-title > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: #5983FC solid 2px;
+    width: max-content;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.form-label {
+    font-size: 24px;
+}
+
+.form-input {
+    padding: 8px;
+    border-radius: 12px;
+    border: #5983FC solid 2px;
+    background-color: #2E4583;
+    color: #5983FC;
+    font-size: 24px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 6px 8px;
+    font-size: 16px;
+    color: #EEE;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.button-confirm {
+    background-color: #3E60C1;
+    border: #5983FC solid 2px;
+}
+
+.button-cancel {
+    background-color: #c22424;
+    border: #EEE solid 2px;
+}
+
+.button-read {
+    background-color: #c2bf24;
+    border: #EEE solid 2px;
+}
+
+.button-update {
+    background-color: #2623db;
+    border: #EEE solid 2px;
+}
+
+.button-create {
+    background-color: #2d850a;
+    border: #EEE solid 2px;
+}
+
+.action-table {
+    display: flex;
+    gap: 2px;
+    padding: 0;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.form-controls {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+    flex-direction: row-reverse;
+}
+
+.main {
+    padding: 16px 32px;
+}
+
+.product-header {
+    padding: 8px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border: #5983FC solid 2px;
+}
+
+thead > tr {
+    background-color: #2E4583;
+}
+
+tbody > tr {
+    background-color: #3E60C1;
+}
+
+td, th {
+    padding: 8px;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: #5983FC solid 2px;
+    width: max-content;
+}
+
+.index-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+
+.message {
+    width: 80%;
+    padding: 12px 24px;
+    margin: 12px auto;
+    font-weight: bold;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.message-success {
+    color: #2d850a;
+    border: #2d850a solid 2px;
+    background-color: #77c05b;
+}
+
+.message-danger {
+    color: #EEE;
+    border: #c22424 solid 2px;
+    background-color: #f04b4b;
+}
+
+.close {
+    position: absolute;
+    right: 24px;
+    top: 6px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+
+.table-controls {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-controls > .link {
+    color: #EEE;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.table-controls > .disabled {
+    color: rgb(99, 99, 99);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    cursor: default;
+}
